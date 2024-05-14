@@ -1,0 +1,11 @@
+Feature: Pago seguro de reserva de tour
+
+ Scenario 1: Inicio de sesión exitoso
+    Given el usuario se encuentra registrado en la plataforma
+    When ingresa su respectivo correo y contraseña
+    Then el sistema permitirá iniciar sesión en la plataforma.
+
+ Scenario 2: Inicio de sesión fallido
+    Given usuario se encuentra registrado en la plataforma
+    When ingresa un correo o contraseña incorrecta
+    Then el sistema no permitirá iniciar sesión
