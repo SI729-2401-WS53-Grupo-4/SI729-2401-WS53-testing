@@ -1,0 +1,6 @@
+Feature: Visualización de paquetes de tours disponibles
+
+  Scenario: Visualizar lista
+    Dado de que el usuario quiere una lista detallada de los paquetes de tours disponibles
+    When el usuario ingresa a la vista de "Tours"
+    Then el sistema mostrará los tours disponibles actualmente
