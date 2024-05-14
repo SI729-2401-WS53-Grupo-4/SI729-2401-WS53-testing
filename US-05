@@ -1,12 +1,12 @@
 Feature: Pago seguro de reserva de tour
 
  Scenario 1: Pago realizado
-    Dado de que el usuario quiere realizar el pago de su reserva de tour
+    Given el usuario quiere realizar el pago de su reserva de tour
     When el usuario realice una transacción a través de su tarjeta
     Then el sistema aceptará la tarjeta y procederá al pago
 
  Scenario 2: Pago rechazado
-    Dado de que el usuario quiere realizar el pago de su reserva de tour
+    Given el usuario quiere realizar el pago de su reserva de tour
     When el usuario realice una transacción a través de su tarjeta
     And no cuenta con los fondos suficientes
     Then el sistema denegará la tarjeta y no procederá al pago
