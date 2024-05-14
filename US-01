@@ -1,0 +1,12 @@
+Feature: Creación de cuenta
+
+ Scenario 1: Registro exitoso
+    Given el usuario desea registrarse en la plataforma
+    When el usuario ingresa un correo electrónico y una constraseña
+    Then el sistema creará la cuenta del usuario
+    
+  Scenario 1: Correo electrónico en uso
+    Given el usuario desea registrarse en la plataforma
+    When el usuario ingresa un correo electrónico y una constraseña
+    And el correo electrónico ya está en uso
+    Then el sistema no permitirá el registro
