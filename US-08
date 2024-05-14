@@ -1,0 +1,6 @@
+Feature: Vista general de la plataforma
+
+ Scenario 1: Visualización home
+    Given el usuario quiere una vista home accesible
+    When el usuario ingrese a la plataforma con su cuenta
+    Then el sistema lo redirigirá a la pantalla home y mostrará las pestañas de cada apartado
