@@ -1,0 +1,6 @@
+Feature: Registro de Restaurante
+
+Scenario: Registrar restaurante
+    Given el duenio desea registrar su restaurante en la aplicación
+    When el duenio ingrese a la ventana de registro de restaurante y complete los datos correspondientes
+    Then el sistema lo redirigirá al apartado de administración de su restaurante registrado.
