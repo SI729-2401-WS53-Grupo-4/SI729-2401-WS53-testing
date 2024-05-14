@@ -1,6 +1,6 @@
 Feature: Información detallada del tour
 
   Scenario: Visualizar detalles del tour
-    Dado de que el usuario quiere conocer información detallada de los tours
+    Given el usuario quiere conocer información detallada de los tours
     When el usuario ingrese a la vista del tour seleccionado y al apartado de "más info"
     Then el sistema mostrará las actividades, ubicación, restaurantes, instructor y la calificación del tour
