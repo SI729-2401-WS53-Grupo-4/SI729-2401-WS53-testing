@@ -1,6 +1,6 @@
 Feature: Visualización de restaurantes favoritos
 
 Scenario: Visualizar favoritos
-    Dado de que el usuario desea verificar el restaurante favorito que eligió
+    Given el usuario desea verificar el restaurante favorito que eligió
     When el usuario ingresa a la vista de "Restaurantes" y le da como favorito al restaurante
     Then el sistema guardará el restaurante favorito en la lista de favoritos.
