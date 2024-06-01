@@ -1,6 +1,0 @@
-Feature: Elección de horarios de tour
-
-  Scenario: Visualizar horarios
-    Given el usuario quiere revisar los horarios disponibles del tour elegido
-    When el usuario ingresa al apartado de "Reserva ahora" de acuerdo al tour elegido
-    Then el sistema mostrará la información del tour junto con los horarios.
