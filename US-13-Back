@@ -1,0 +1,7 @@
+Feature: Registro de restaurante
+
+Scenario: Regitrar un nuevo restaurante a la lista
+
+Given un restaurante desea registrarse en el sistema
+When completa el formulario de registro con la información requerida como lo es el nombre, horario, ubicación y descripción
+Then el restaurante se registra exitosamente en el sistema
