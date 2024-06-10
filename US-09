@@ -1,6 +1,0 @@
-Feature: Filtros de búsqueda de tour gastronómico
-
-  Scenario: Filtrar tours
-    Given el usuario quiere realizar búsquedas con filtros
-    When el usuario vaya a la parte de los filtros y completa los datos que desea obtener
-    Then el sistema mostrará los tours de acuerdo a lo que el usuario escribió
