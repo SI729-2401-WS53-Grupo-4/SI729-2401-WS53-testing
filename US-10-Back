@@ -1,0 +1,7 @@
+Feature: Plan de suscripción
+
+Scenario: Afiliarse a la suscripción premium de TasteTour
+
+Given un usuario desea suscribirse a un plan en el sistema
+When selecciona un plan de suscripción y completa el proceso de pago
+Then el usuario queda suscrito al plan premium de TasteTour
