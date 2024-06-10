@@ -1,0 +1,7 @@
+Feature: Aplicar restaurante en tours
+
+Scenario: Solicitud del dueño de un restaurante para afiliarse a un tour
+
+Given el dueño de un restaurante desea afiliar su restaurante para ser parte de los tours disponibles en el sistema
+When se informa al administrador del sistema sobre el interés del dueño en afiliar su restaurante a un tour
+Then el administrador revisa la solicitud y, si es aprobada, agrega el restaurante al tour correspondiente
