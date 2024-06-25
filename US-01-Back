@@ -1,0 +1,7 @@
+Feature: Creación de cuenta
+
+Scenario: Crear una nueva cuenta en TasteTour
+
+Given un usuario desea crear una cuenta en el sistema
+When completa el formulario de registro con información válida
+Then la cuenta del usuario se crea en el sistema

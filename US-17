@@ -1,0 +1,6 @@
+Feature: Ver lista de restaurantes
+
+Scenario: Visualizar lista de restaurantes disponibles cerca del usuario
+    Given el usuario quiere revisar los restaurantes disponibles cerca de la zona en la que se encuentra
+    When el usuario ingresa al botón de "Restaurants" del toolbar
+    Then accederá a la pantalla de la lista de restaurantes que están por su zona.

@@ -1,0 +1,6 @@
+Feature: Plan de Suscripción
+
+  Scenario: Visualizar planes de suscripción
+    Given el usuario quiere ver los planes de suscripción disponibles
+    When el usuario ingrese al apartado de "Comprar plan premium"
+    Then el sistema mostrará el planes que estan disponibles actualmente

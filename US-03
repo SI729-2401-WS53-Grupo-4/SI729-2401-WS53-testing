@@ -1,0 +1,6 @@
+Feature: Edición de perfil
+
+  Scenario: Información editada
+    Given el usuario quiere editar su información del perfil
+    When el usuario ingresa los datos que quiere cambiar
+    Then el sistema procederá a aceptar los cambios

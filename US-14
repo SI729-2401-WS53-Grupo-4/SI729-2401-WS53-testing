@@ -1,0 +1,6 @@
+Feature: Aplicar restaurante en tours
+
+Scenario: Aplicar restaurante en tour seleccionado
+    Given el duenio quiere aplicar su restaurante en alguno de los tours disponibles
+    When el duenio seleccione uno de los tours y elija la opción de "aplicar restaurante"
+    Then el sistema solicitará a los moderadores su revisión.
