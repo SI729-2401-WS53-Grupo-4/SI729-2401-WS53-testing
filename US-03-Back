@@ -1,0 +1,7 @@
+Feature: Edición de perfil
+
+Scenario: Editar el perfil de usuario
+
+Given un usuario desea editar su perfil en el sistema
+When realiza cambios en la información de su perfil y guarda los cambios
+Then la información del perfil del usuario se actualiza en el sistema
