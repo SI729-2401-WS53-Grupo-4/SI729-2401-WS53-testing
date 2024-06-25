@@ -1,0 +1,6 @@
+Feature: Función de pago realizado del tour
+
+  Scenario: Pago realizado
+    Given yo quiero hacer una función que pueda guardar el pago que se realizó
+    When utilice el CRUD post a la función y la llamo "Añadir reserva"
+    Then el sistema agregará la reserva en la lista de reservas.
